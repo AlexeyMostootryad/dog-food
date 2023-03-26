@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    background-color: #fed700;
+    padding: 12px 0;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 80px;
+}
+
+.header span {
+	margin-right: 40px;
+}
+
+.profile {
+	max-width: 1024px;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+	.wrapper {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 20px;
+	}
+}
